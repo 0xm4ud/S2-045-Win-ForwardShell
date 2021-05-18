@@ -3,7 +3,7 @@
 # Windows AS-045 Forward Shell
 # -- https://www.youtube.com/watch?v=uMwcJQcUnmY 
 # Authors: ippsec, 0xdf
-# Adapted to windows by: m4ud
+# Adapted for windows target by: m4ud
 
 import base64 
 import random 
